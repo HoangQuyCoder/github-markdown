@@ -1,383 +1,486 @@
-# Giới thiệu
+# 📝 Hướng Dẫn Markdown Toàn Tập
 
-Đã có ai dùng `GitHub` bao lâu nay vẫn không biết các tệp với đuôi mở rộng .md là gì không?
-
-`Markdown` là ngôn ngữ đánh dấu có cú pháp khá đơn giản và dễ hiểu, tạo thuận tiện cho việc chuyển đổi từ văn bản thuần sang `HTML`.
-
-Thay vì dựa vào `HTML`, `Markdown` cho phép bạn định dạng văn bản mà trực quan hơn nhiều so với `HTML`.
-
-Có thể bạn chưa biết: `Markdown` có thể được sử dụng tại [Github](https://github.com) và [Discord](https://discord.com).
-
-> If you can, feel free to translate this repo into other languages, thanks!
-
-> Tài liệu được viết tay bởi [Lục Thiên Phong](https://github.com/lucthienphong1120), để giúp bạn có thêm hiểu biết và làm chủ về Markdown.
-
-# Mục lục
-
-[I. Sơ lược](#i-sơ-lược)
-- [1. MarkDown (Markup languages)](#1-markdown-markup-languages)
-- [2. Một số trình soạn thảo Markdown](#2-một-số-trình-soạn-thảo-markdown)
-
-[II. Cách sử dụng](#ii-cách-sử-dụng)
-- [1. Văn bản thuần](#1-văn-bản-thuần)
-  - [1. Tiêu đề - Heading](#1-tiêu-đề---heading)
-  - [2. Đoạn văn - Paragraph](#2-đoạn-văn---paragraph)
-  - [3. Chữ in nghiêng - Italic](#3-chữ-in-nghiêng---italic)
-  - [4. Chữ in đậm - Bold](#4-chữ-in-đậm---bold)
-  - [5. In đậm và in nghiêng](#5-in-đậm-và-in-nghiêng)
-  - [6. Chữ gạch giữa - Strikethrough](#6-chữ-gạch-giữa---strikethrough)
-  - [7. Code trong dòng - Inline Code](#7-code-trong-dòng---inline-code)
-- [2. Các khối](#2-các-khối)
-  - [1. Trích dẫn - Blockquote](#1-trích-dẫn---blockquote)
-  - [2. Danh sách có thứ tự - Ordered List](#2-danh-sách-có-thứ-tự---ordered-list)
-  - [3. Danh sách không có thứ tự - Unordered List](#3-danh-sách-không-có-thứ-tự---unordered-list)
-  - [4. Khối lệnh - Block Code](#4-khối-lệnh---block-code)
-  - [5. Bảng - Table](#5-bảng---table)
-- [3. Đặc biệt](#3-đặc-biệt)
-  - [1. Đường kẻ ngang - Horizonal rules](#1-đường-kẻ-ngang---horizonal-rules)
-  - [2. Liên kết - Link](#2-liên-kết---link)
-  - [3. Hình ảnh - Image](#3-hình-ảnh---image)
-  - [4. Biểu tượng cảm xúc - Icon](#4-biểu-tượng-cảm-xúc---icon)
-  - [5. Checkbox](#5-checkbox)
-  - [6. Escape markdown](#6-escape-markdown)
-
-[III. Kết thúc](#iii-kết-thúc)
-
-# I. Sơ lược
-
-## 1. MarkDown (Markup languages)
-
-Sự thật là cái tên **"Markdown"** chính là một phép chơi chữ của từ **"Markup"**.
-
-Mardown được sử dụng để xuất văn bản thô trên trình duyệt nhưng các ngôn ngữ đánh dấu khác lại có thể giao tiếp trực tiếp với máy tính. Đơn cử như `XML` là một ngôn ngữ đánh dấu văn bản mà cả con người lẫn máy móc có thể đọc được.
-
-Một ngôn ngữ đánh dấu văn bản khác mà mọi người chắc hẳn ai học CNTT cũng biết vì độ nổi tiếng của nó, chính là `HTML`, `Markdown` không mang trong mình sứ mệnh **"Kẻ huỷ diệt HTML"** hay gì, mà mục đích của nó chính là làm đơn giản hoá việc đánh dấu văn bản và tăng cường tốc độ viết lách một cách đáng kể.
-
-## 2. Một số trình soạn thảo Markdown
-
-- Mac, Windows, và Linux
-  - [Typora](https://typora.io/)
-  - [MacDown](https://macdown.uranusjr.com/)
-- Online
-  - [StackEdit](https://stackedit.io/) 
-  - [Dillinger](https://dillinger.io/)
-  - [Hashify](https://hashify.me/)
-- Sau bài viết này, bạn có thể viết md mà không cần chuyển đổi
-  - Notepad
-  - Visual Studio Code
-  - Visual Code
-  - Notepad++
-  - Vi,nano,...
-  - Github,Discord,...
-
-# II. Cách sử dụng
-
-## 1. Văn bản thuần
-
-### 1 Tiêu đề - Heading
-
-Bạn có thể viết loại tiêu đề `<h1>, <h2>,... <h6>` bằng cách thêm các dấu # tương ứng vào đầu dòng.
-
-Một dấu # tương đương với `<h1>`, hai dấu # tương đương với `<h2>` ...
-
-Cú pháp:
-```
-# Tiêu đề loại 1
-## Tiêu đề loại 2
-### Tiêu đề loại 3
-#### Tiêu đề loại 4
-##### Tiêu đề loại 5
-###### Tiêu đề loại 6
-```
-Kết quả:
-
-# Tiêu đề loại 1
-## Tiêu đề loại 2
-### Tiêu đề loại 3
-#### Tiêu đề loại 4
-##### Tiêu đề loại 5
-###### Tiêu đề loại 6
-
-### 2. Đoạn văn - Paragraph
-
-Để xuống dòng giữa các văn bản `<p>`, sử dụng một dòng trống để tách các dòng văn bản.
-
-Cú pháp:
-```
-Đây là dòng 1
-
-Đây là dòng 2
-```
-Kết quả:
-
-Đây là dòng 1
-
-Đây là dòng 2
-
-### 3. Chữ in nghiêng - Italic
-
-Để in nghiêng văn bản `<i>`, thêm một dấu * hoặc dấu _ trước và sau từ cần in nghiêng.
-
-Cú pháp:
-```
-*Từ cần in nghiêng 1*
-
-_Từ cần in nghiêng 2_
-```
-Kết quả:
-
-*Từ cần in nghiêng 1*
-
-_Từ cần in nghiêng 2_
-
-### 4. Chữ in đậm - Bold
-
-Để in đậm văn bản `<b>`, thêm hai dấu * hoặc dấu _ trước và sau từ cần in đậm.
-
-Cú pháp:
-```
-**Từ cần in đậm 1**
-
-__Từ cần in đậm 2__
-```
-Kết quả:
-
-**Từ cần in đậm 1**
-
-__Từ cần in đậm 2__
-
-### 5. In đậm và in nghiêng
-
-Đơn giản, bạn chỉ cần ba dấu * hoặc dấu _ trước và sau từ đó.
-
-Cú pháp:
-```
-***Từ in đậm và in nghiêng 1***
-
-___Từ in đậm và in nghiêng 2___
-```
-Kết quả:
-
-***Từ in đậm và in nghiêng 1***
-
-___Từ in đậm và in nghiêng 2___
-
-### 6. Chữ gạch giữa - Strikethrough
-
-Để tạo chữ gạch giữa, thêm 2 dấu ~ trước và sau từ đó.
-
-Cú pháp:
-```
-~~Khuyến mại~~
-```
-Kết quả:
-
-~~Khuyến mại~~
-
-### 7. Code trong dòng - Inline Code
-
-Để viết inline `<code>`, bạn dùng 2 dấu ` ở trước và sau từ đó.
-
-Cú pháp:
-```
-`inline code`
-```
-Kết quả:
-
-`inline code`
-
-## 2. Các khối
-
-### 1. Trích dẫn - Blockquote
-
-Để tạo một `<blockquote>`, thêm dấu > vào trước mỗi dòng trích dẫn.
-
-Cú pháp:
-```
-> Trích dẫn dòng 1
-> Trích dẫn dòng 2
-```
-Kết quả:
-
-> Trích dẫn dòng 1
-> Trích dẫn dòng 2
-
-### 2. Danh sách có thứ tự - Ordered List
-
-Để tạo danh sách `<ol><li>`, bạn chỉ cần thêm các số, dấu chấm trước nội dung (dùng tab để phân cấp)
-
-Cú pháp:
-```
-1. Mục thứ nhất
-2. Mục thứ hai
-3. Mục thứ ba
-```
-Kết quả:
-
-1. Mục thứ nhất
-2. Mục thứ hai
-3. Mục thứ ba
-
-### 3. Danh sách không có thứ tự - Unordered List
-
-Để tạo danh sách `<ul><li>`, bạn chỉ cần thêm dấu * hoặc - hoặc + trước nội dung (dùng tab để phân cấp)
-
-Cú pháp:
-```
-- Mục thứ nhất
-- Mục thứ hai
-- Mục thứ ba
-```
-Kết quả:
-
-- Mục thứ nhất
-- Mục thứ hai
-- Mục thứ ba
-
-### 4. Khối lệnh - Block Code
-
-Để viết 1 đoạn `<code>`, bạn dùng 3 dấu ` ở trước và sau đoạn đó (có thể thêm format ngôn ngữ đó).
-
-Cú pháp:
-
-![image](https://user-images.githubusercontent.com/90561566/160242871-aad90ad1-bd8d-4e5c-9146-3349fb7c8c98.png)
-
-Kết quả:
-
-```python
-print("hello world")
-```
-
-### 5. Bảng - Table
-
-Để tạo bảng `<table><tbody><tr><th><th>`, bạn chỉ cần ngăn cách bởi dấu | và cách đầu bảng với thân bảng bằng :--- (số dấu - tuỳ ý)
-
-Cú pháp:
-```
-| Cột 1 | Cột 2 | Cột 3 | Cột 4 |
-| :--- | :--- | :--- | :--- |
-| A | B | C | D |
-| E | F | G | H |
-| I | K | L | M |
-```
-Kết quả
-
-| Cột 1 | Cột 2 | Cột 3 | Cột 4 |
-| :--- | :--- | :--- | :--- |
-| A | B | C | D |
-| E | F | G | H |
-| I | K | L | M |
-
-## 3. Đặc biệt
-
-### 1. Đường kẻ ngang - Horizonal rules
-
-Để tạo đường kẻ ngang, sử dụng ba dấu * hoặc - hoặc _ trên một dòng.
-
-Cú pháp:
-```
----
-***
-___
-```
-Kết quả:
+> Tài liệu được biên soạn bởi [Lê Hoàng Quý](https://github.com/HoangQuyCoder) — Software Engineer tại Việt Nam.  
+> Portfolio: [hoangquy-dev.vercel.app](https://hoangquy-dev.vercel.app) | LinkedIn: [Lê Hoàng Quý](https://www.linkedin.com/in/le-hoang-quy-762ba3389)
 
 ---
-***
-___
 
-### 2. Liên kết - Link
+## Mục Lục
 
-Để chèn trực tiếp, bạn có thể paste thẳng nó như bình thường.
+- [I. Markdown là gì?](#i-markdown-là-gì)
+- [II. Công Cụ Soạn Thảo](#ii-công-cụ-soạn-thảo)
+- [III. Cú Pháp Cơ Bản](#iii-cú-pháp-cơ-bản)
+  - [1. Tiêu đề](#1-tiêu-đề)
+  - [2. Đoạn văn](#2-đoạn-văn)
+  - [3. Định dạng chữ](#3-định-dạng-chữ)
+  - [4. Code](#4-code)
+- [IV. Các Khối Nội Dung](#iv-các-khối-nội-dung)
+  - [1. Trích dẫn](#1-trích-dẫn)
+  - [2. Danh sách](#2-danh-sách)
+  - [3. Bảng](#3-bảng)
+  - [4. Đường kẻ ngang](#4-đường-kẻ-ngang)
+- [V. Liên Kết & Đa Phương Tiện](#v-liên-kết--đa-phương-tiện)
+  - [1. Liên kết](#1-liên-kết)
+  - [2. Hình ảnh](#2-hình-ảnh)
+- [VI. Tính Năng Nâng Cao](#vi-tính-năng-nâng-cao)
+  - [1. Checkbox](#1-checkbox)
+  - [2. Emoji](#2-emoji)
+  - [3. Escape ký tự](#3-escape-ký-tự)
+- [VII. Ứng Dụng Thực Tế](#vii-ứng-dụng-thực-tế)
+- [VIII. Kết Luận](#viii-kết-luận)
 
-Để dẫn liên kết `<a href="https://github.com">Github</a>`, bạn dùng `[text](link)`.
+---
 
-Cú pháp:
+## I. Markdown là gì?
+
+**Markdown** là ngôn ngữ đánh dấu văn bản nhẹ, cho phép định dạng nội dung bằng cú pháp đơn giản và trực quan — không cần viết HTML thuần.
+
+### Tại sao dùng Markdown?
+
+| Tiêu chí               | HTML | Markdown |
+| :--------------------- | :--- | :------- |
+| Độ phức tạp            | Cao  | Thấp     |
+| Tốc độ viết            | Chậm | Nhanh    |
+| Dễ đọc khi chưa render | Khó  | Dễ       |
+| Phù hợp với GitHub     | ✅   | ✅       |
+
+### Markdown được dùng ở đâu?
+
+- **GitHub / GitLab** — README, wiki, issue, pull request
+- **Discord** — Định dạng tin nhắn
+- **Notion, Obsidian** — Ghi chú
+- **Dev.to, Hashnode** — Viết blog kỹ thuật
+
+---
+
+## II. Công Cụ Soạn Thảo
+
+### Desktop
+
+| Tên                                       | Nền tảng          | Ghi chú                            |
+| :---------------------------------------- | :---------------- | :--------------------------------- |
+| [VS Code](https://code.visualstudio.com/) | Win / Mac / Linux | Khuyên dùng — preview tích hợp sẵn |
+| [Typora](https://typora.io/)              | Win / Mac / Linux | WYSIWYG, render ngay khi gõ        |
+| Notepad++                                 | Windows           | Nhẹ, không cần preview             |
+
+### Online (không cần cài đặt)
+
+| Tên       | Link                                  |
+| :-------- | :------------------------------------ |
+| StackEdit | [stackedit.io](https://stackedit.io/) |
+| Dillinger | [dillinger.io](https://dillinger.io/) |
+| Hashify   | [hashify.me](https://hashify.me/)     |
+
+> 🔧 **Khuyến nghị cá nhân:** Tôi dùng **VS Code** cho tất cả dự án. Cài thêm extension [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) để có preview đẹp hơn mặc định.
+
+---
+
+## III. Cú Pháp Cơ Bản
+
+### 1. Tiêu đề
+
+Dùng dấu `#` để tạo tiêu đề từ cấp 1 đến cấp 6:
+
+```markdown
+# Tiêu đề cấp 1 (H1)
+
+## Tiêu đề cấp 2 (H2)
+
+### Tiêu đề cấp 3 (H3)
+
+#### Tiêu đề cấp 4 (H4)
+
+##### Tiêu đề cấp 5 (H5)
+
+###### Tiêu đề cấp 6 (H6)
 ```
-Trực tiếp: https://github.com/lucthienphong1120
 
-Gián tiếp: [Github](https://github.com/lucthienphong1120)
+> ⚠️ Lưu ý: Cần có **dấu cách** sau dấu `#` để được nhận diện đúng.
+
+---
+
+### 2. Đoạn văn
+
+Dùng **một dòng trống** để tách các đoạn văn:
+
+```markdown
+Đây là đoạn văn thứ nhất.
+
+Đây là đoạn văn thứ hai.
 ```
+
+Để **xuống dòng trong cùng một đoạn**, thêm hai dấu cách ở cuối dòng trước khi nhấn Enter:
+
+```markdown
+Dòng 1  
+Dòng 2 (cùng đoạn)
+```
+
+---
+
+### 3. Định dạng chữ
+
+| Định dạng     | Cú pháp                  | Kết quả               |
+| :------------ | :----------------------- | :-------------------- |
+| In nghiêng    | `*chữ*` hoặc `_chữ_`     | _chữ nghiêng_         |
+| In đậm        | `**chữ**` hoặc `__chữ__` | **chữ đậm**           |
+| Đậm + nghiêng | `***chữ***`              | **_chữ đậm nghiêng_** |
+| Gạch giữa     | `~~chữ~~`                | ~~chữ gạch~~          |
+
+---
+
+### 4. Code
+
+#### Inline code — dùng cho tên biến, lệnh ngắn:
+
+```markdown
+Chạy lệnh `npm install` để cài dependencies.
+```
+
+Kết quả: Chạy lệnh `npm install` để cài dependencies.
+
+#### Block code — dùng cho đoạn mã dài, có syntax highlighting:
+
+````markdown
+```java
+@RestController
+@RequestMapping("/api/hotels")
+public class HotelController {
+    @GetMapping
+    public List<Hotel> getAll() {
+        return hotelService.findAll();
+    }
+}
+```
+````
+
 Kết quả:
 
-Trực tiếp: https://github.com/lucthienphong1120
-
-Gián tiếp: [Github](https://github.com/lucthienphong1120)
-
-### 3. Hình ảnh - Image
-
-Để chèn trực tiếp, bạn có thể paste thẳng nó như bình thường.
-
-Để dẫn ảnh `<img src="https://avatars.githubusercontent.com/u/583231 alt="Github">`, bạn dùng `![text](link ảnh)`.
-
-Hoặc `![](link ảnh)` nếu không cần chữ khi hover.
-
-Cú pháp:
+```java
+@RestController
+@RequestMapping("/api/hotels")
+public class HotelController {
+    @GetMapping
+    public List<Hotel> getAll() {
+        return hotelService.findAll();
+    }
+}
 ```
-![](https://avatars.githubusercontent.com/u/583231)
+
+**Các ngôn ngữ hỗ trợ syntax highlighting phổ biến:**
+
 ```
+java, javascript, typescript, python, bash, sql,
+json, yaml, dockerfile, kotlin, php, c, cpp, go
+```
+
+---
+
+## IV. Các Khối Nội Dung
+
+### 1. Trích dẫn
+
+Dùng `>` để tạo blockquote. Có thể lồng nhiều cấp:
+
+```markdown
+> Đây là trích dẫn cấp 1.
+>
+> > Đây là trích dẫn cấp 2 (lồng nhau).
+```
+
+> Đây là trích dẫn cấp 1.
+>
+> > Đây là trích dẫn cấp 2 (lồng nhau).
+
+---
+
+### 2. Danh sách
+
+#### Danh sách có thứ tự:
+
+```markdown
+1. Clone repository
+2. Cài dependencies: `npm install`
+3. Cấu hình file `.env`
+4. Chạy server: `npm run dev`
+```
+
+1. Clone repository
+2. Cài dependencies: `npm install`
+3. Cấu hình file `.env`
+4. Chạy server: `npm run dev`
+
+#### Danh sách không thứ tự (có thể lồng nhau):
+
+```markdown
+- Backend
+  - Java / Spring Boot
+  - Node.js / Express.js
+- Frontend
+  - React.js
+  - Tailwind CSS
+- DevOps
+  - Docker
+  - Kubernetes
+  - GitHub Actions
+```
+
+- Backend
+  - Java / Spring Boot
+  - Node.js / Express.js
+- Frontend
+  - React.js
+  - Tailwind CSS
+- DevOps
+  - Docker
+  - Kubernetes
+  - GitHub Actions
+
+---
+
+### 3. Bảng
+
+```markdown
+| Tên dự án            | Tech Stack                     |     Trạng thái     |
+| :------------------- | :----------------------------- | :----------------: |
+| Hotel Booking System | Spring Boot, React, PostgreSQL |   ✅ Hoàn thành    |
+| WebBlog              | Node.js, MongoDB, Ollama       | 🔄 Đang phát triển |
+| Library Server       | Node.js, Express, Docker       |   ✅ Hoàn thành    |
+```
+
+| Tên dự án            | Tech Stack                     |     Trạng thái     |
+| :------------------- | :----------------------------- | :----------------: |
+| Hotel Booking System | Spring Boot, React, PostgreSQL |   ✅ Hoàn thành    |
+| WebBlog              | Node.js, MongoDB, Ollama       | 🔄 Đang phát triển |
+| Library Server       | Node.js, Express, Docker       |   ✅ Hoàn thành    |
+
+**Căn chỉnh cột:**
+
+| Ký hiệu | Ý nghĩa             |
+| :------ | :------------------ |
+| `:---`  | Căn trái (mặc định) |
+| `---:`  | Căn phải            |
+| `:---:` | Căn giữa            |
+
+---
+
+### 4. Đường kẻ ngang
+
+Dùng `---`, `***`, hoặc `___` trên một dòng riêng:
+
+```markdown
+---
+```
+
+---
+
+## V. Liên Kết & Đa Phương Tiện
+
+### 1. Liên kết
+
+```markdown
+<!-- Liên kết thông thường -->
+
+[Tên hiển thị](https://url.com)
+
+<!-- Liên kết có tooltip -->
+
+[Tên hiển thị](https://url.com "Tooltip khi hover")
+
+<!-- Liên kết đến section trong file -->
+
+[Xem phần III](#iii-cú-pháp-cơ-bản)
+
+<!-- Liên kết tự động -->
+
+https://hoangquy-dev.vercel.app
+```
+
+**Ví dụ thực tế:**
+
+```markdown
+Xem thêm tại [portfolio của tôi](https://hoangquy-dev.vercel.app) hoặc liên hệ qua
+[LinkedIn](https://www.linkedin.com/in/le-hoang-quy-762ba3389).
+```
+
+---
+
+### 2. Hình ảnh
+
+```markdown
+<!-- Ảnh cơ bản -->
+
+![Alt text](https://link-anh.com/image.png)
+
+<!-- Ảnh có tooltip -->
+
+![Alt text](https://link-anh.com/image.png "Tooltip")
+
+<!-- Ảnh có thể click (liên kết) -->
+
+[![Alt text](https://link-anh.com/image.png)](https://link-redirect.com)
+```
+
+**Ví dụ badge thường dùng trong GitHub README:**
+
+```markdown
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+```
+
+---
+
+## VI. Tính Năng Nâng Cao
+
+### 1. Checkbox
+
+Thường dùng trong **To-do list** hoặc **task tracking** trên GitHub Issues/PR:
+
+```markdown
+## Checklist trước khi merge PR
+
+- [x] Viết unit tests
+- [x] Cập nhật API documentation
+- [ ] Review code với team
+- [ ] Deploy lên staging
+- [ ] Thông báo cho QA team
+```
+
 Kết quả:
 
-![](https://avatars.githubusercontent.com/u/583231)
+- [x] Viết unit tests
+- [x] Cập nhật API documentation
+- [ ] Review code với team
+- [ ] Deploy lên staging
+- [ ] Thông báo cho QA team
 
-Để chèn liên kết vào ảnh `<a href="link"><img src="link ảnh" alt="chữ"></a>` thì chỉ cần kết hợp đúng cú pháp là được.
+---
 
-```
-[ ![chữ](link ảnh) ] (link)
-```
+### 2. Emoji
 
-### 4. Biểu tượng cảm xúc - Icon
+GitHub hỗ trợ emoji bằng cú pháp `:tên_emoji:`:
 
-Phần này tuỳ vào nền tảng (Github, Discord, ...) có icon đó không, bạn ghi dấu : và tên icon.
-
-Cú pháp:
-
-![image](https://user-images.githubusercontent.com/90561566/160245877-ccf277ff-094f-482c-801b-4a8fe46471b7.png)
-
-Kết quả:
-
-👁️
-
-> More information: https://github.com/lucthienphong1120/Github-Emojis
-
-### 5. Checkbox
-
-Để chèn `checkbox/checked` (thường dùng cho to do list trên github) thì ta đánh dấu như list và thêm 1 cặp ngoặc vuông.
-
-Cú pháp:
-
-```
-- [ ] Checkbox
-- [x] Checked
+```markdown
+:rocket: :tada: :bug: :fire: :white_check_mark: :warning:
 ```
 
-Kết quả:
+🚀 🎉 🐛 🔥 ✅ ⚠️
 
-- [ ] Checkbox
-- [x] Checked
+**Một số emoji hay dùng trong README dự án:**
 
-### 6. Escape markdown
+| Emoji | Code                 | Ý nghĩa         |
+| :---: | :------------------- | :-------------- |
+|  🚀   | `:rocket:`           | Deploy / Launch |
+|  ✅   | `:white_check_mark:` | Hoàn thành      |
+|  🐛   | `:bug:`              | Bug fix         |
+|  📚   | `:books:`            | Tài liệu        |
+|  ⚠️   | `:warning:`          | Cảnh báo        |
+|  🔧   | `:wrench:`           | Cấu hình        |
 
-Đôi khi bạn sẽ cần những kí hiệu trùng với cú pháp của markdown. Để phân biệt, bạn chỉ cần thêm dấu \ trước những kí hiệu đó là được.
+> 🔍 Danh sách đầy đủ: [github.com/ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
-Cú pháp:
+---
+
+### 3. Escape ký tự
+
+Khi cần hiển thị ký tự Markdown như ký tự thường, thêm dấu `\` trước:
+
+```markdown
+\*Dòng này không in nghiêng\*
+
+\`Không phải inline code\`
+
+\# Không phải tiêu đề
 ```
-\`hai dấu nháy\`
 
-\*\*\*ba dấu sao hai bên\*\*\*
+**Các ký tự cần escape:**
+
 ```
-Kết quả:
+\ ` * _ { } [ ] ( ) # + - . !
+```
 
-\`hai dấu nháy\`
+---
 
-\*\*\*ba dấu sao hai bên\*\*\*
+## VII. Ứng Dụng Thực Tế
 
-# III. Kết thúc
+### Mẫu README cho dự án cá nhân
 
-Hy vọng qua bài viết này, bạn sẽ không còn thấy Markdown khó nữa và sẽ nắm được cách dùng Markdown trong nhiều việc của mình hơn nhé.
+Dưới đây là cấu trúc README mà tôi thường dùng cho các dự án:
 
-Nếu thấy hay hãy đừng ngần ngại mà thả 1 sao cho tôi, chúc bạn 1 ngày làm việc thật tốt!
+````markdown
+# Tên Dự Án
 
-> Bạn có thể thoải mái đóng góp (contribute) hoặc liên kết (fork) dự án này.
+> Mô tả ngắn gọn về dự án.
 
-> You are free to contribute or fork this repo.
+![Badge](...) ![Badge](...)
+
+## ✨ Tính năng
+
+- Tính năng 1
+- Tính năng 2
+
+## 🛠️ Tech Stack
+
+- **Backend:** Spring Boot, PostgreSQL
+- **Frontend:** React.js, Tailwind CSS
+- **DevOps:** Docker, GitHub Actions
+
+## 🚀 Hướng dẫn cài đặt
+
+1. Clone repository
+   ```bash
+   git clone https://github.com/HoangQuyCoder/ten-du-an.git
+   ```
+````
+
+2. Cấu hình biến môi trường
+   ```bash
+   cp .env.example .env
+   ```
+3. Chạy với Docker
+   ```bash
+   docker-compose up -d
+   ```
+
+## 📄 API Documentation
+
+Xem tại: `http://localhost:8080/swagger-ui.html`
+
+## 🤝 Contributing
+
+Pull request luôn được chào đón. Vui lòng đọc [CONTRIBUTING.md](./CONTRIBUTING.md) trước.
+
+## 📬 Liên hệ
+
+- Email: hoangquyle11@gmail.com
+- LinkedIn: [Lê Hoàng Quý](https://www.linkedin.com/in/le-hoang-quy-762ba3389)
+
+````
+
+---
+
+## VIII. Kết Luận
+
+Markdown đơn giản nhưng cực kỳ hiệu quả — đặc biệt trong môi trường làm việc với GitHub và các công cụ developer hiện đại.
+
+**Tóm tắt nhanh những gì đã học:**
+
+| Nhóm | Cú pháp chính |
+| :--- | :--- |
+| Tiêu đề | `#`, `##`, `###` |
+| Định dạng chữ | `**bold**`, `*italic*`, `~~strike~~` |
+| Code | `` `inline` ``, ` ```block``` ` |
+| Danh sách | `1.`, `-`, `*` |
+| Liên kết & ảnh | `[text](url)`, `![alt](url)` |
+| Bảng | `\| col \| col \|` |
+| Checkbox | `- [ ]`, `- [x]` |
+| Blockquote | `>` |
+
+---
+
+> 💬 **Góp ý hoặc đóng góp?** Hãy tạo [Issue](https://github.com/HoangQuyCoder) hoặc liên hệ trực tiếp với tôi.
+> Nếu thấy hữu ích, hãy ⭐ star repository này nhé!
+
+*Made with ❤️ by [Lê Hoàng Quý](https://github.com/HoangQuyCoder)*
+````
