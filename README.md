@@ -478,11 +478,7 @@ Markdown đơn giản nhưng cực kỳ hiệu quả — đặc biệt trong mô
 
 ---
 
-> 💬 **Góp ý hoặc đóng góp?** Hãy tạo [Issue](https://github.com/HoangQuyCoder) hoặc liên hệ trực tiếp với tôi.
+> 💬 **Góp ý hoặc đóng góp?** Hãy tạo [Issue](https://github.com/HoangQuyCoder/github-markdown/issues) hoặc liên hệ trực tiếp với tôi.
 > Nếu thấy hữu ích, hãy ⭐ star repository này nhé!
 
 _Made with ❤️ by [Lê Hoàng Quý](https://github.com/HoangQuyCoder)_
-
-```
-
-```
