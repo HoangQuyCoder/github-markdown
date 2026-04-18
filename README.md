@@ -1,6 +1,6 @@
-# 📝 Hướng Dẫn Markdown Toàn Tập
+# 📝 Hướng Dẫn Markdown
 
-> Tài liệu được biên soạn bởi [Lê Hoàng Quý](https://github.com/HoangQuyCoder) — Software Engineer tại Việt Nam.  
+> Tài liệu được biên soạn bởi [Lê Hoàng Quý](https://github.com/HoangQuyCoder) — Backend Developer.  
 > Portfolio: [hoangquy-dev.vercel.app](https://hoangquy-dev.vercel.app) | LinkedIn: [Lê Hoàng Quý](https://www.linkedin.com/in/le-hoang-quy-762ba3389)
 
 ---
@@ -429,10 +429,10 @@ Dưới đây là cấu trúc README mà tôi thường dùng cho các dự án:
 ## 🚀 Hướng dẫn cài đặt
 
 1. Clone repository
+
    ```bash
    git clone https://github.com/HoangQuyCoder/ten-du-an.git
    ```
-````
 
 2. Cấu hình biến môi trường
    ```bash
@@ -455,7 +455,6 @@ Pull request luôn được chào đón. Vui lòng đọc [CONTRIBUTING.md](./CO
 
 - Email: hoangquyle11@gmail.com
 - LinkedIn: [Lê Hoàng Quý](https://www.linkedin.com/in/le-hoang-quy-762ba3389)
-
 ````
 
 ---
@@ -466,21 +465,24 @@ Markdown đơn giản nhưng cực kỳ hiệu quả — đặc biệt trong mô
 
 **Tóm tắt nhanh những gì đã học:**
 
-| Nhóm | Cú pháp chính |
-| :--- | :--- |
-| Tiêu đề | `#`, `##`, `###` |
-| Định dạng chữ | `**bold**`, `*italic*`, `~~strike~~` |
-| Code | `` `inline` ``, ` ```block``` ` |
-| Danh sách | `1.`, `-`, `*` |
-| Liên kết & ảnh | `[text](url)`, `![alt](url)` |
-| Bảng | `\| col \| col \|` |
-| Checkbox | `- [ ]`, `- [x]` |
-| Blockquote | `>` |
+| Nhóm           | Cú pháp chính                        |
+| :------------- | :----------------------------------- |
+| Tiêu đề        | `#`, `##`, `###`                     |
+| Định dạng chữ  | `**bold**`, `*italic*`, `~~strike~~` |
+| Code           | `` `inline` ``, ` ```block``` `      |
+| Danh sách      | `1.`, `-`, `*`                       |
+| Liên kết & ảnh | `[text](url)`, `![alt](url)`         |
+| Bảng           | `\| col \| col \|`                   |
+| Checkbox       | `- [ ]`, `- [x]`                     |
+| Blockquote     | `>`                                  |
 
 ---
 
 > 💬 **Góp ý hoặc đóng góp?** Hãy tạo [Issue](https://github.com/HoangQuyCoder) hoặc liên hệ trực tiếp với tôi.
 > Nếu thấy hữu ích, hãy ⭐ star repository này nhé!
 
-*Made with ❤️ by [Lê Hoàng Quý](https://github.com/HoangQuyCoder)*
-````
+_Made with ❤️ by [Lê Hoàng Quý](https://github.com/HoangQuyCoder)_
+
+```
+
+```
